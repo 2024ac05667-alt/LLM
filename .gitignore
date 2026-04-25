@@ -1,3 +1,19 @@
-.pptx
-.docx
-(1).ipynb
+# Microsoft Office (Word, PowerPoint, Excel)
+*.pptx
+*.docx
+*.xlsx
+*.pdf
+
+# Office Temporary Files (The hidden "owner" files)
+~$*
+.~$*
+
+# Jupyter Notebooks and Python
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+__pycache__/
+*.py[cod]
+
+# Specific duplicates/backups
+*(1).ipynb
+* copy.*
